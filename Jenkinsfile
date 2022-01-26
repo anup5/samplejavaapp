@@ -1,7 +1,5 @@
 pipeline {
-	agent {
-		ubuntu
-	}
+	agent {ubuntu}
     stages {
         stage('compile') {
 	   steps {
