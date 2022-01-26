@@ -1,6 +1,6 @@
 pipeline {
 	agent {
-		ubuntu_vm
+		ubuntu
 	}
     stages {
         stage('compile') {
